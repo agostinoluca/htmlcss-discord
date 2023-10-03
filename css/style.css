@@ -17,6 +17,16 @@
     width: 80%;
 }
 
+.btn{
+        background: none;
+        color: inherit;
+        border: none;
+        padding: 0;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+}
+
 /* column */
 .col-5{
     width: calc((100% / 12) * 5);
@@ -37,6 +47,7 @@
 .container_header{
     align-items: center;
     color: white;
+    min-width: 700px;
 }
 
 .header_logo{
@@ -44,21 +55,26 @@
 }
 
 .row_menu_bar{
-    justify-content: space-between;
+    justify-content: center;
     width: 75%;
-    margin: 0 1rem;
-    align-self: center;
+    margin: 1rem;
+    font-size: 1.2rem;
+    min-width: 760px;
 }
 
 .header_login{
-    width: 10%;
+    background: white;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 1rem;
 }
 
 /* MAIN */
 .download_open_bg{
     background-image: url("../img/jumbo.png");
     background-size: cover;
-    height: 15rem;
+    background-position: center;
+    height: 40rem;
 }
 
 .image_content{
