@@ -1,0 +1,195 @@
+/* common */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.w-80{
+    width: 80%;
+}
+
+/* column */
+.col-5{
+    width: calc((100% / 12) * 5);
+    padding: 1rem;
+}
+
+.col-4{
+    width: calc((100% / 12) * 4);
+}
+
+/* HEADER */ 
+.site_header{
+    width: 100%;
+    height: 80px;
+}
+
+.container_header{
+    align-items: center;
+    background: rgb(19, 151, 240);
+    color: white;
+}
+
+.header_logo{
+    width: 15%;
+}
+
+.row_menu_bar{
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 1rem;
+    align-self: center;
+}
+
+.header_login{
+    width: 10%;
+}
+
+/* MAIN */
+
+.image_content{
+    width: 60%;
+}
+
+.text_content{
+    width: 40%;
+}
+
+/* FOOTER */
+.left_top_footer{
+    width: 35%;
+}
+
+.footer_nav{
+    width: 100%;
+}
+
+.footer_top{
+    border-bottom: 0.1rem blue solid;
+}
+
+.footer_bottom{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* DEBUG */
+.debug .site_header{
+    background-color: red;
+    border: 0.3rem dashed green;
+}
+
+.debug .site_header .container_header{
+    height: 100%;
+    background: #ededed;
+    border: 0.3rem dotted black;
+}
+
+.debug .header_logo{
+    background: yellow;
+    height: 3rem;
+}
+
+.debug .row_menu_bar{
+    background: black;
+    height: 3rem;
+}
+
+.debug .col-5{
+    background-color: white;
+    border: 2px solid black;
+}
+
+.debug .header_login{
+    background-color: yellow;
+    height: 3rem;
+}
+
+.debug .download_open_bg{
+    height: 30rem;
+    background: rgb(24, 97, 107);
+    border: 0.3rem double yellow;
+}
+
+.debug main .download_open_bg .flex_container{
+    background-color: red;
+    height: 20rem;
+    border: 0.3rem dotted black;
+}
+
+.debug .section_bg{
+    height: 40rem;
+    background: blue;
+    border: 0.3rem dashed white;
+}
+
+.debug .image_content{
+    height: 20rem;
+    background: white;
+    border: 0.2rem solid grey;
+}
+
+.debug .text_content{
+    height: 20rem;
+    background: yellow;
+    border: 0.2rem dotted green;
+}
+
+.debug .section_bg .flex_container{
+    height: 20rem;
+    background: orange;
+    border: 0.3rem solid black;
+}
+
+.debug footer{
+    background: #706e6e;
+}
+
+.debug footer .footer_top{
+    height: 20rem;
+    background: purple;
+}
+
+.debug footer .left_top_footer{
+    height: 18rem;
+    background: yellow;
+    border: 0.3rem solid orange;
+}
+
+.debug footer .footer_top .footer_nav{
+    height: 18rem;
+    background: white;
+    border: 0.3rem solid black;
+}
+
+.debug footer .footer_top .footer_nav .col-4{
+    border: 0.1rem dotted blue;
+}
+
+.debug footer .footer_bottom{
+    height: 4rem;
+    background: green;
+    border: 0.1rem dotted white;
+}
+
+.debug footer .footer_bottom .logo_footer{
+    height: 2rem;
+    width: 5rem;    
+    background: #000000;
+}
+
+.debug footer .footer_bottom .sign_in_footer{
+    height: 2rem;
+    width: 5rem;    
+    background: #00a0eb;
+}
