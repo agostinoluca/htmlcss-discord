@@ -55,6 +55,11 @@
 }
 
 /* MAIN */
+.download_open_bg{
+    background-image: url("/img/jumbo.png");
+    background-size: cover;
+    height: 15rem;
+}
 
 .image_content{
     width: 60%;
