@@ -82,6 +82,40 @@ a{
     height: 40rem;
 }
 
+.download_open_bg .flex_container{
+    width: 35%;
+    text-align: center;
+}
+
+.download_open_bg h1{
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 4rem;
+}
+
+.download_open_bg p{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.down_mac{
+    background: white;
+    color: black;
+    padding: 1rem 1.5rem;
+    border-radius: 1.7rem;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.open_browser{
+    background: black;
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 1.7rem;
+    font-size: 1.5rem;
+}
+
 .image_content{
     width: 60%;
 }
