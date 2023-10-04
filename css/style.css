@@ -27,6 +27,11 @@
         outline: inherit;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 /* column */
 .col-5{
     width: calc((100% / 12) * 5);
