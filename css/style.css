@@ -79,7 +79,7 @@ a{
     background-image: url("../img/jumbo.png");
     background-size: cover;
     background-position: center;
-    height: 40rem;
+    padding: 30px;
 }
 
 .download_open_bg .flex_container{
@@ -90,7 +90,7 @@ a{
 .download_open_bg h1{
     color: white;
     font-size: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 .download_open_bg p{
@@ -116,13 +116,32 @@ a{
     font-size: 1.5rem;
 }
 
-.image_content{
-    width: 60%;
-}
 
 .text_content{
     width: 40%;
 }
+
+.image_content{
+    width: 60%;
+}
+
+.image_content img{
+    width: 100%;
+}
+
+.text_content h2{
+    font-size: 4.5rem;
+    text-align: left;
+    padding: 3rem;
+}
+
+.text_content p{
+    font-size: 1.8rem;
+    text-align: left;
+    padding: 3rem;
+}
+
+
 
 /* FOOTER */
 .left_top_footer{
