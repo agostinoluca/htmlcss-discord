@@ -40,7 +40,8 @@
 }
 
 .btn:hover{
-    box-shadow: 0.5rem 0.5rem 0.2rem var(--discord-black);
+    box-shadow: 0.3rem 0.3rem 0.1rem var(--discord-black);
+    transform: scale(1.1);
 }
 
 a{
@@ -106,7 +107,7 @@ a{
     flex-grow: 2;
 }
 
-.header_login{
+.header_login .btn{
     background: var(--discord-white);
     color: var(--discord-black);
     padding: 0.5rem;
@@ -280,7 +281,7 @@ hr{
     margin: 1.5rem 0;
 }
 
-.sign_up_footer{
+.sign_up_footer .btn{
     background: var(--discord-accent);
     color: var(--discord-white);
     padding: 0.5rem 1rem;
@@ -290,7 +291,6 @@ hr{
     display: inline-block;
     margin-bottom: 5rem;
 }
-
 /* #endregion FOOTER */
 
 
