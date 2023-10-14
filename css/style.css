@@ -210,6 +210,11 @@ a{
     width: 100%;
 }
 
+.image_content:hover{
+    transition: 1s;
+    scale: 1.1;
+}
+
 .text_content h2{
     font-size: 4.5rem;
     padding: 3rem;
