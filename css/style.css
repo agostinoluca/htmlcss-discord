@@ -28,11 +28,6 @@
     box-shadow: 0.3rem 0.3rem 0.1rem var(--discord-black);
     transform: scale(1.1);
 }
-
-a{
-    text-decoration: none;
-    color: var(--discord-white);
-}
 /* #endregion common */
 
 
@@ -149,6 +144,27 @@ a{
     color: var(--discord-black);
     padding: 0.5rem;
     border-radius: 1rem;
+    animation: boom 5s linear infinite;
+}
+
+@keyframes boom{
+    0%{
+        color: black;
+    }
+    25%{
+        color: orange;   
+    }
+    50%{
+        color: green;
+    }
+    75%{
+        color: blue;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: var(--discord-white);
 }
 
 /* #endregion HEADER */ 
