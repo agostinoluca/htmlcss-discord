@@ -39,6 +39,10 @@
         outline: inherit;
 }
 
+.btn:hover{
+    box-shadow: 0.5rem 0.5rem 0.2rem var(--discord-black);
+}
+
 a{
     text-decoration: none;
     color: var(--discord-white);
@@ -157,11 +161,11 @@ a{
 
 
 .text_content{
-    width: 40%;
+    width: 50%;
 }
 
 .image_content{
-    width: 60%;
+    width: 50%;
 }
 
 .image_content img{
