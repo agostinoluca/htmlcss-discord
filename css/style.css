@@ -28,6 +28,11 @@
     box-shadow: 0.3rem 0.3rem 0.1rem var(--discord-black);
     transform: scale(1.1);
 }
+
+a:hover{
+    filter: brightness(1);
+    border-bottom: 1px dotted;
+}
 /* #endregion common */
 
 
@@ -104,7 +109,7 @@
 }
 
 .header_logo {
-    animation: welcome-logo 10s infinite linear;
+    animation: welcome-logo 20s infinite linear;
 }
 
 @keyframes welcome-logo {
@@ -127,7 +132,7 @@
     75%{
         transform: scale(1.1);
     }
-    90%{
+    98%{
         transform: scale(0.8);
         transform: rotate(360deg);
         opacity: 0;
@@ -203,6 +208,7 @@ a{
     border-radius: 1.7rem;
     font-size: 1.5rem;
     margin-right: 1rem;
+    margin-top: 10px;
 }
 
 .open_browser{
@@ -211,6 +217,7 @@ a{
     padding: 1rem 1.5rem;
     border-radius: 1.7rem;
     font-size: 1.5rem;
+    margin-top: 10px;
 }
 
 
@@ -281,7 +288,23 @@ a{
 .call_bg h4{
     background-image: url(../img/stars.svg);
     background-size: cover;
+    animation: stars 2s infinite linear;
 }
+
+@keyframes stars {
+    0%{
+        filter: brightness(1);
+    }    
+    50%{
+        filter: brightness(0);
+    }
+
+    100%{
+        filter: brightness(1);
+    }
+}
+
+
 
 /* #endregion MAIN */
 
@@ -337,6 +360,20 @@ footer ul li{
 hr{
     border: 1px solid rgb(42, 94, 232);
     margin: 1.5rem 0;
+    animation: arrow 10s linear infinite;
+}
+
+@keyframes arrow {
+    0%{
+        filter: brightness(1);
+    }    
+    50%{
+        filter: brightness(0);
+    }
+
+    70%{
+        filter: brightness(1);
+    }  
 }
 
 .sign_up_footer .btn{
